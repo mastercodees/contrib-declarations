@@ -2,6 +2,11 @@
   "Privacy Policy": [
     {
       "fetch": "https://help.netflix.com/en/legal/privacy",
+      "select": [".kb-title", ".kb-article"],
+      "validUntil": "2021-11-03T05:38:17+01:00"
+    },
+    {
+      "fetch": "https://help.netflix.com/en/legal/privacy",
       "select": "section.kb-article.kb-article-variant.gradient",
       "validUntil": "2021-04-14T04:31:46+04:00"
     },
@@ -12,6 +17,11 @@
     }
   ],
   "Terms of Service": [
+    {
+      "fetch": "https://help.netflix.com/legal/termsofuse",
+      "select": [".kb-title", ".kb-article"],
+      "validUntil": "2021-11-03T05:38:20+01:00"
+    },
     {
       "fetch": "https://help.netflix.com/legal/termsofuse",
       "select": "section.kb-article.kb-article-variant.gradient",
