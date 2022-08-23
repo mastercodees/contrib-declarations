@@ -68,6 +68,22 @@
     {
       "fetch": "https://help.instagram.com/519522125107875",
       "select": [
+        "div[role=\"main\"]"
+      ],
+      "remove": [
+        "div[aria-label=\"Copy Link\"]",
+        "[id='Related Articles']",
+        "fieldset"
+      ],
+      "executeClientScripts": true,
+      "filter": [
+        "removeTrackingIDs"
+      ],
+      "validUntil": "2022-07-29T10:30:49+04:00"
+    },
+    {
+      "fetch": "https://help.instagram.com/519522125107875",
+      "select": [
         "h1",
         "[role='main'] > div > div > div:nth-child(2)"
       ],

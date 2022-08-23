@@ -17,32 +17,15 @@
       "executeClientScripts": true
     },
     "Privacy Policy": {
-      "fetch": "https://help.instagram.com/519522125107875",
+      "fetch": "https://privacycenter.instagram.com/policy",
       "select": [
-        "div[role=\"main\"]"
+        "hr+div"
       ],
       "remove": [
-        "div[aria-label=\"Copy Link\"]",
-        "[id='Related Articles']",
-        "fieldset"
-      ],
-      "executeClientScripts": true,
-      "filter": [
-        "removeTrackingIDs"
-      ]
-    },
-    "Community Guidelines": {
-      "fetch": "https://help.instagram.com/477434105621119",
-      "select": [
-        "div[role=\"main\"]"
-      ],
-      "remove": [
-        "div[aria-label=\"Copy Link\"]",
-        "[id='Related Articles']",
-        "fieldset"
+        "a[aria-label=\"Icon Button\"]"
       ],
       "filter": [
-        "removeTrackingIDs"
+        "getModalContent"
       ],
       "executeClientScripts": true
     },
