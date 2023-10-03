@@ -1,6 +1,6 @@
 {
   "name": "GraphCMS",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://graphcms.com/privacy",
       "select": [

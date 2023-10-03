@@ -1,6 +1,6 @@
 {
   "name": "Stadia",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://stadia.google.com/tos?hl=en_GB",
       "select": "div.LCe0ud.GV7rLd"

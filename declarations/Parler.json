@@ -1,6 +1,6 @@
 {
   "name": "Parler",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://parler.com/documents/privacypolicy.pdf"
     },

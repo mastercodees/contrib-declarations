@@ -1,6 +1,6 @@
 {
   "name": "IndieGala",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://www.indiegala.com/privacy-policy",
       "select": [

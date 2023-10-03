@@ -1,6 +1,6 @@
 {
   "name": "CrowdTangle",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.crowdtangle.com/eu-terms",
       "select": [
