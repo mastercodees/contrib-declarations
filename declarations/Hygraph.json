@@ -2,15 +2,21 @@
   "name": "Hygraph",
   "documents": {
     "Privacy Policy": {
-      "fetch": "https://graphcms.com/privacy",
+      "fetch": "https://hygraph.com/privacy",
       "select": [
-        ".py-12 > .mx-auto"
+        "main section"
+      ],
+      "remove": [
+        "main section:last-child"
       ]
     },
     "Terms of Service": {
-      "fetch": "https://graphcms.com/terms",
+      "fetch": "https://hygraph.com/terms",
       "select": [
-        ".py-12 > .mx-auto"
+        "main section"
+      ],
+      "remove": [
+        "main section:last-child"
       ]
     }
   }
